@@ -1,3 +1,4 @@
+import 'package:bone01/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -5,15 +6,8 @@ void main() {
 }
 
 class Myapp extends StatelessWidget {
-  const Myapp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Material(
-          child: Center(
-        child: Text('welcome app'),
-      )),
-    );
+    return MaterialApp(home: HomePage());
   }
 }
